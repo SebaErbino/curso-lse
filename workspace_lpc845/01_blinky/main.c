@@ -1,44 +1,21 @@
-
-/*
- * Copyright (c) 2013 - 2015, Freescale Semiconductor, Inc.
- * Copyright 2016-2017 NXP
- * All rights reserved.
- *
- * SPDX-License-Identifier: BSD-3-Clause
- */
-
-#include "fsl_device_registers.h"
-
-#include "pin_mux.h"
-#include "clock_config.h"
-#include "peripherals.h"
-
 #include "board.h"
-#include "app.h"
 
-/*******************************************************************************
- * Definitions
- ******************************************************************************/
+#define LED_BLUE GPIO,1,1
 
-/*******************************************************************************
- * Prototypes
- ******************************************************************************/
 
-/*******************************************************************************
- * Code
- ******************************************************************************/
-/*!
- * @brief Main function
- */
+int main (void) {
 
-int main(void)
-{
+    GPIO_PortInit(GPIO, 1);
+    gpio_pin_config_t out_config = { .pinDirection = kGPIO_DigitalOutput, .outputLogic = 1};
+    GPIO_PinInit (GPIO, 1, 1, &out_config);
 
-    /* Init board hardware. */
-    BOARD_InitHardware();
-
-    /* Add user custom codes below */
-    while (1)
-    {
+    while (1) { 
+    GPIO_PinWrite (LED_BLUE, 1);
+    for (uint32_t i = 0; i < 60000; i++);
+    GPIO_PinWrite (LED_BLUE, 0);
+    for (uint32_t i = 0; i < 60000; i++);
     }
+    
+    return 0;
 }
+

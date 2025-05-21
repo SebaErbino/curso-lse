@@ -1,0 +1,26 @@
+# ninja log v6
+25	288	7695403079470555	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/peripherals.c.obj	61b04e6b9d1dfeaa
+51	572	7695403079711514	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/board.c.obj	120793329eae0725
+11	590	7695403079306537	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/main.c.obj	a242320a6d45e28b
+107	606	7695403080304154	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/gcc/startup_LPC845.S.obj	31d765b301131c0
+37	623	7695403079562646	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/pin_mux.c.obj	878888b789ef9eb2
+93	696	7695403080145884	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/components/uart/fsl_adapter_miniusart.c.obj	9f65fda9b1fb5d19
+81	711	7695403080025724	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/hardware_init.c.obj	126f52cec68a6992
+67	728	7695403079877655	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/01_blinky/clock_config.c.obj	f3098050f346fae3
+146	756	7695403080661578	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/system_LPC845.c.obj	3ffed76b96ca39ea
+166	795	7695403080866810	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_clock.c.obj	50883b4da9ae28ea
+289	811	7695403082092781	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_common.c.obj	2e68d3caeb7970d9
+574	1057	7695403084945923	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_common_arm.c.obj	377b267e47899aaa
+590	1071	7695403085117502	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_inputmux.c.obj	e8a1d14a58d9ba08
+728	1208	7695403086492910	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_swm.c.obj	3f54c13b0e76069a
+811	1261	7695403087316701	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/utilities/fsl_sbrk.c.obj	56d1efb8997f81ae
+697	1268	7695403086181183	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_power.c.obj	2af6c1efddaeb0d0
+607	1276	7695403085280722	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_gpio.c.obj	d9ffbc7e5b7780ed
+623	1304	7695403085445680	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_usart.c.obj	4d3eed8c5f266787
+795	1351	7695403087150784	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/utilities/fsl_syscall_stub.c.obj	4459bbd77730f8a0
+711	1368	7695403086328565	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_reset.c.obj	c07ff9e32ce7137b
+756	1500	7695403086770004	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/drivers/fsl_syscon.c.obj	549b7bd6ffb024c3
+1057	1520	7695403089780318	CMakeFiles/new_project.elf.dir/54eea38b70e2d9b4eb4b02914951f7aa/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/utilities/debug_console_lite/fsl_assert.c.obj	ab7d82733f9bf82b
+1072	1594	7695403089929704	CMakeFiles/new_project.elf.dir/54eea38b70e2d9b4eb4b02914951f7aa/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/utilities/debug_console_lite/fsl_debug_console.c.obj	9347a4c2085abb59
+1209	1743	7695403091300706	CMakeFiles/new_project.elf.dir/C_/Users/DELL/Documents/GitHub/curso-lse/workspace_lpc845/sdks/01_blinky_sdk/devices/LPC845/utilities/str/fsl_str.c.obj	704f72d64384960f
+1743	2001	7695403096623526	new_project.elf	627a324128b14f98
