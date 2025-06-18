@@ -1,8 +1,7 @@
 #include "board.h"
 
 #define LED_BLUE GPIO,1,1
-
-
+ 
 int main (void) {
 
     GPIO_PortInit(GPIO, 1);
