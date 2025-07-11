@@ -1,2 +1,10 @@
-# curso-lse
+# Trabajo Integrador del curso de Sistemas Embebidos - UTN FRA
+---
 Repositorio para el curso de Sistemas Embebidos
+
+|Integrantes|
+|------------|
+|Franco Lesme|
+|Valentin Franco|
+|Sebastian Erbino|
+|----------------|
